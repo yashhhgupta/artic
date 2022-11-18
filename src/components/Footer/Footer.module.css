@@ -1,0 +1,38 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #e9e7e8;
+  color: black;
+  text-align: center;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.containnn {
+  display: flex;
+  justify-content: center;
+}
+
+.topfoot {
+  width: 40%;
+  font-size: 13px;
+  padding: 10px 10px;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.bottomfoot {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.commoncss {
+  margin-right: 6px;
+  margin-left: 6px;
+}

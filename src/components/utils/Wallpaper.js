@@ -3,7 +3,7 @@ import styles from "../Home/Home.module.css";
 
 const Wallpaper = () => {
   return (
-    <div>
+    <div className = {styles.wallpaper}>
       <div className={styles.line}>
         <div className={`card ${styles.imagesBox} ${styles.right}`}>
           <img
