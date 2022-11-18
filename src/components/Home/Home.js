@@ -17,11 +17,6 @@ function Home() {
         </div>
         <Wallpaper />
       </div>
-      <div className={styles.extra}>
-        <div className={styles.extraHeader}>
-          <h2>Explore the Content</h2>
-        </div>
-      </div>
     </>
   );
 }
