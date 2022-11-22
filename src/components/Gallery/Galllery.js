@@ -3,7 +3,11 @@ import classes from "./Gallery.module.css";
 const Gallery = () => {
   return (
     <div className={classes.gallery}>
-      <h1>CSS3 Animated Art Gallery</h1>
+      <div className={classes.galleryTextWrapper}>
+        <div className={classes.galleryText}>
+          <h1>OUR COLLECTION</h1>
+        </div>
+      </div>
       <div className={classes.row}>
         <div className={classes.thumbnail}>
           <div className={classes.photoContainer}>
@@ -50,7 +54,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className={`${classes.row} ${classes.displayNone}`}>
+      <div className={`${classes.row} ${classes.row2}`}>
         <div className={classes.thumbnail}>
           <div className={classes.photoContainer}>
             <a href="#">

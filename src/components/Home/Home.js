@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Footer/Footer";
 import Gallery from "../Gallery/Galllery";
 import Wallpaper from "../utils/Wallpaper";
 import styles from "./Home.module.css";
@@ -14,10 +13,12 @@ function Home() {
               Take Art to
               <span style={{ color: `rgba(231, 84, 128, 1)` }}> Heart </span>
             </h1>
-            <h3>
+            <h2>
               Unleash your inner Artist Now, by being part of the community
+            </h2>
+            <h3>
+              "Don't think about making art, just get it done."
             </h3>
-            <button>Register Now as an Artist</button>
           </div>
           <Wallpaper />
         </div>

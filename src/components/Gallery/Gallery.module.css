@@ -1,9 +1,21 @@
+.gallery {
+    margin-bottom: 2rem;
+}
 .row {
     margin: 40px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 90%;
     grid-column-gap: 1%;
+}
+
+.galleryText{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 1200px){
@@ -19,7 +31,7 @@
     .row {
         grid-template-columns: repeat(1, 1fr);
     }
-    .displayNone {
+    .row2 {
         display: none;
     }
 }
@@ -107,7 +119,7 @@
 }
 
 .photoInfo {
-    background-color: #000;
+    background-color: #fff;
     position: absolute;
     bottom: 0px;
     text-align: center;
